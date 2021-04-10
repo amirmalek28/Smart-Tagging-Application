@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01036C63262208E6004208E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01036C62262208E6004208E1 /* Assets.xcassets */; };
+		0173B4FB2622097000A9EA91 /* QR Directory Manager in Resources */ = {isa = PBXBuildFile; fileRef = 0173B4FA2622097000A9EA91 /* QR Directory Manager */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01036C6D262208E6004208E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01036C53262208E5004208E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01036C5A262208E5004208E1;
+			remoteInfo = "QR Directory Manager";
+		};
+		01036C78262208E6004208E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01036C53262208E5004208E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01036C5A262208E5004208E1;
+			remoteInfo = "QR Directory Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01036C5B262208E5004208E1 /* QR Directory Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Directory Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01036C62262208E6004208E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01036C67262208E6004208E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01036C6C262208E6004208E1 /* QR Directory ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Directory ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01036C77262208E6004208E1 /* QR Directory ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Directory ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0173B4FA2622097000A9EA91 /* QR Directory Manager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "QR Directory Manager"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01036C58262208E5004208E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C69262208E6004208E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C74262208E6004208E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01036C52262208E5004208E1 = {
+			isa = PBXGroup;
+			children = (
+				01036C5D262208E5004208E1 /* QR Directory Manager */,
+				01036C5C262208E5004208E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01036C5C262208E5004208E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01036C5B262208E5004208E1 /* QR Directory Manager.app */,
+				01036C6C262208E6004208E1 /* QR Directory ManagerTests.xctest */,
+				01036C77262208E6004208E1 /* QR Directory ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01036C5D262208E5004208E1 /* QR Directory Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0173B4FA2622097000A9EA91 /* QR Directory Manager */,
+				01036C62262208E6004208E1 /* Assets.xcassets */,
+				01036C67262208E6004208E1 /* Info.plist */,
+			);
+			path = "QR Directory Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01036C5A262208E5004208E1 /* QR Directory Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01036C80262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory Manager" */;
+			buildPhases = (
+				01036C57262208E5004208E1 /* Sources */,
+				01036C58262208E5004208E1 /* Frameworks */,
+				01036C59262208E5004208E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Directory Manager";
+			productName = "QR Directory Manager";
+			productReference = 01036C5B262208E5004208E1 /* QR Directory Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01036C6B262208E6004208E1 /* QR Directory ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01036C83262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory ManagerTests" */;
+			buildPhases = (
+				01036C68262208E6004208E1 /* Sources */,
+				01036C69262208E6004208E1 /* Frameworks */,
+				01036C6A262208E6004208E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01036C6E262208E6004208E1 /* PBXTargetDependency */,
+			);
+			name = "QR Directory ManagerTests";
+			productName = "QR Directory ManagerTests";
+			productReference = 01036C6C262208E6004208E1 /* QR Directory ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01036C76262208E6004208E1 /* QR Directory ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01036C86262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory ManagerUITests" */;
+			buildPhases = (
+				01036C73262208E6004208E1 /* Sources */,
+				01036C74262208E6004208E1 /* Frameworks */,
+				01036C75262208E6004208E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01036C79262208E6004208E1 /* PBXTargetDependency */,
+			);
+			name = "QR Directory ManagerUITests";
+			productName = "QR Directory ManagerUITests";
+			productReference = 01036C77262208E6004208E1 /* QR Directory ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01036C53262208E5004208E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					01036C5A262208E5004208E1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					01036C6B262208E6004208E1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 01036C5A262208E5004208E1;
+					};
+					01036C76262208E6004208E1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 01036C5A262208E5004208E1;
+					};
+				};
+			};
+			buildConfigurationList = 01036C56262208E5004208E1 /* Build configuration list for PBXProject "QR Directory Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01036C52262208E5004208E1;
+			productRefGroup = 01036C5C262208E5004208E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01036C5A262208E5004208E1 /* QR Directory Manager */,
+				01036C6B262208E6004208E1 /* QR Directory ManagerTests */,
+				01036C76262208E6004208E1 /* QR Directory ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01036C59262208E5004208E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0173B4FB2622097000A9EA91 /* QR Directory Manager in Resources */,
+				01036C63262208E6004208E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C6A262208E6004208E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C75262208E6004208E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01036C57262208E5004208E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C68262208E6004208E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01036C73262208E6004208E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01036C6E262208E6004208E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01036C5A262208E5004208E1 /* QR Directory Manager */;
+			targetProxy = 01036C6D262208E6004208E1 /* PBXContainerItemProxy */;
+		};
+		01036C79262208E6004208E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01036C5A262208E5004208E1 /* QR Directory Manager */;
+			targetProxy = 01036C78262208E6004208E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01036C7E262208E6004208E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01036C7F262208E6004208E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01036C81262208E6004208E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QR Directory Manager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "QR Directory Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01036C82262208E6004208E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QR Directory Manager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "QR Directory Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01036C84262208E6004208E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Directory ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Directory Manager.app/QR Directory Manager";
+			};
+			name = Debug;
+		};
+		01036C85262208E6004208E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Directory ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Directory Manager.app/QR Directory Manager";
+			};
+			name = Release;
+		};
+		01036C87262208E6004208E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Directory ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Directory Manager";
+			};
+			name = Debug;
+		};
+		01036C88262208E6004208E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Directory ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.QR-Directory-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Directory Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01036C56262208E5004208E1 /* Build configuration list for PBXProject "QR Directory Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01036C7E262208E6004208E1 /* Debug */,
+				01036C7F262208E6004208E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01036C80262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01036C81262208E6004208E1 /* Debug */,
+				01036C82262208E6004208E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01036C83262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01036C84262208E6004208E1 /* Debug */,
+				01036C85262208E6004208E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01036C86262208E6004208E1 /* Build configuration list for PBXNativeTarget "QR Directory ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01036C87262208E6004208E1 /* Debug */,
+				01036C88262208E6004208E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01036C53262208E5004208E1 /* Project object */;
+}

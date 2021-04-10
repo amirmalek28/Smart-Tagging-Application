@@ -1,0 +1,20 @@
+PODS:
+  - ImageScrollView (1.8)
+  - MTBBarcodeScanner (5.0.11)
+
+DEPENDENCIES:
+  - ImageScrollView
+  - MTBBarcodeScanner
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ImageScrollView
+    - MTBBarcodeScanner
+
+SPEC CHECKSUMS:
+  ImageScrollView: 82912273486297285682bdb2a806742f0d39940c
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+
+PODFILE CHECKSUM: 463e768cc1ded5a99deb243831096f4005e374f4
+
+COCOAPODS: 1.5.3
