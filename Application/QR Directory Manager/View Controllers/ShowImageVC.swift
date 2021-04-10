@@ -1,4 +1,4 @@
-//
+//  Amir Malek 2020
 //  ShowImageVC.swift
 //  QR Directory Manager
 //

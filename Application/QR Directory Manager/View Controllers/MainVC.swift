@@ -1,4 +1,4 @@
-//
+//  Amir Malek 2020
 //  MainVC.swift
 //  QR Directory Manager
 //

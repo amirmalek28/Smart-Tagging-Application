@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01036C63262208E6004208E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01036C62262208E6004208E1 /* Assets.xcassets */; };
-		0173B4FB2622097000A9EA91 /* QR Directory Manager in Resources */ = {isa = PBXBuildFile; fileRef = 0173B4FA2622097000A9EA91 /* QR Directory Manager */; };
+		0173B4FB2622097000A9EA91 /* .. in Resources */ = {isa = PBXBuildFile; fileRef = 0173B4FA2622097000A9EA91 /* .. */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		01036C67262208E6004208E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01036C6C262208E6004208E1 /* QR Directory ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Directory ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01036C77262208E6004208E1 /* QR Directory ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Directory ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0173B4FA2622097000A9EA91 /* QR Directory Manager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "QR Directory Manager"; sourceTree = "<group>"; };
+		0173B4FA2622097000A9EA91 /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		01036C5D262208E5004208E1 /* QR Directory Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0173B4FA2622097000A9EA91 /* QR Directory Manager */,
+				0173B4FA2622097000A9EA91 /* .. */,
 				01036C62262208E6004208E1 /* Assets.xcassets */,
 				01036C67262208E6004208E1 /* Info.plist */,
 			);
@@ -193,7 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0173B4FB2622097000A9EA91 /* QR Directory Manager in Resources */,
+				0173B4FB2622097000A9EA91 /* .. in Resources */,
 				01036C63262208E6004208E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

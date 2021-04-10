@@ -1,4 +1,4 @@
-//
+//  Amir Malek 2020
 //  ViewController.swift
 //  QR Directory Manager
 //
